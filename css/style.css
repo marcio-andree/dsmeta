@@ -138,4 +138,38 @@ a a:hover, a:visited{
 .dsmeta-red-btn img {
   width: 19px;
 }
+.show-576{
+  display: none;
+}
+
+.show992 {
+  display: none;
+}
+
+
+
+@media (min-width:992px) {
+  .show992 {
+    display: table-cell;
+  }
+}
+
+@media (min-width:576px) {
+  .show576 {
+    display:table-cell;
+  }
+  .dsmeta-card {
+    padding: 35px;
+  }
+  .dsmeta-sales-table tbody tr {
+    height: 55px;
+    font-size: 18px;
+  }
+    .dsmeta-sales-table tbody {
+      font-size: 18px;
+    }
+
+}
+
+
 
